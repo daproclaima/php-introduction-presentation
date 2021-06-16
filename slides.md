@@ -17,7 +17,7 @@ info: |
     </ol>
     <img class="" src="/assets/images/1/php_pachyderme.png" alt="php-pachyderme">
 </div>
-<a class="relative inset-y-30 inset-x-84" href="https://www.linkedin.com/in/snitpro/">Par Sébastien NOBOUR</a>
+<a class="relative inset-y-30 inset-x-84 text-green-300 opacity-50" href="https://www.linkedin.com/in/snitpro/">Par Sébastien NOBOUR</a>
 
 ---
 
@@ -50,7 +50,6 @@ info: |
         </a>
     </div>
 </div>
-<a class="relative inset-y-40 inset-x-180 text-xs text-blue-gray-300" href="https://www.linkedin.com/in/snitpro/">Sébastien NOBOUR</a>
 
 <!--
 né 22 novembre 1968 au Groenland, 
@@ -71,13 +70,8 @@ produire des pages web dynamiques plus rapidement qu’avec d’autres langages 
             <h3>En 1997, PHP v3 (Hypertext Preprocessor) est publié.</h3> 
         </li>
         <li class="text-xl" v-click="2">
-            <h3 class="text-yellow-400">
+            <h3>
                 Résultat du redéveloppent du cœur de PHP/FI v2 par Andi Gutmans et Zeev Suraski, avec Rasmus Lerdorf.
-            </h3>
-        </li>
-        <li class="text-xl relative bottom-35 bg-black h-40" v-click="3">
-            <h3 class="text-green-400">
-                Interface pour de multiples bases de données, protocoles et API, la facilité d'extension du langage, OOP
             </h3>
         </li>
     </ol>
@@ -100,12 +94,44 @@ produire des pages web dynamiques plus rapidement qu’avec d’autres langages 
         </section>
     </div>
 </div>
-<a class="relative inset-y-40 inset-x-180 text-xs text-blue-gray-300" href="https://www.linkedin.com/in/snitpro/">Sébastien NOBOUR</a>
 
 <!--
-né 22 novembre 1968 au Groenland, 
-nationalité danois canadien
-Ingénieur système
-
-produire des pages web dynamiques plus rapidement qu’avec d’autres langages comme Perl-CGI ( remplir page web de données reçues d’un serveur web distant) 
+    v3: Ajout d'interfaces pour de multiples bases de données, protocoles et API, la facilité d'extension du langage, OOP
 -->
+
+---
+
+## L'évolution de PHP: la v4 et Zend
+
+<div class="page__evolution--v2 pt-12 flex flex-row space-x-30">
+    <ol class="w-90 relative block flex flex-col space-y-6 text-left">
+        <li class="text-xl"><h3>1998, développent d'un nouveau moteur, appelé Zend Engine servant de base à PHP v4</h3></li>
+        <li class="text-xl" v-click="1">
+            <h3>PHP devient populaire. Sa syntaxe plait.</h3> 
+        </li>
+        <li class="text-xl" v-click="2">
+            <h3>
+                Plein d'outils de développement basés sur PHP apparaissent.
+            </h3>
+        </li>
+    </ol>
+    <div class="flex flex-wrap" v-after="2">
+        <section class="section__cms flex flex-row space-x-6">
+            <img class="w-16 h-16 flex-shrink-0" src="/assets/images/2/drupal.png" alt="drupal logo">
+            <img class="w-16 h-16 flex-shrink-0" src="/assets/images/2/wordpress.png" alt="worpdress logo">
+            <img class="w-30 h-10 flex-shrink-0" src="/assets/images/2/joomla.png" alt="joomla logo">
+            <img class="relative bottom-12 w-60 h-40 flex-shrink-0" src="/assets/images/2/magento.svg" alt="magento logo">
+        </section>
+        <section class="section__framework flex flex-row space-x-6">
+            <img class="w-20 h-20 flex-shrink-0" src="/assets/images/2/laravel.jpeg" alt="laravel logo">
+            <img class="w-36 h-20 flex-shrink-0" src="/assets/images/2/zend-framework.png" alt="zend framework logo">
+            <img class="w-20 h-20 flex-shrink-0" src="/assets/images/2/symfony.png" alt="symfony logo">
+            <img class="w-20 h-20 flex-shrink-0" src="/assets/images/2/codeIgniter.png" alt="code igniter logo">
+        </section>
+    </div>
+</div>
+
+<!-- v4 a une excellente syntaxe. outils: cms et framework -->
+
+---
+
