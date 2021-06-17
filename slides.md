@@ -21,7 +21,7 @@ info: |
 
 ---
 
-## Les origines de PHP: la v1, PHP/FI 
+## Les origines de PHP : la v1, PHP/FI 
 
 <div class="page__origines pt-12 flex flex-row space-x-70">
     <ol class="w-60 relative block flex flex-col space-y-6 text-left">
@@ -61,18 +61,18 @@ produire des pages web dynamiques plus rapidement qu’avec d’autres langages 
 
 ---
 
-## L'évolution de PHP: la v2 et v3
+## L'évolution de PHP : la v2 et v3
 
 <div class="page__evolution--v2 pt-12 flex flex-row space-x-70">
     <ol class="w-60 relative block flex flex-col space-y-6 text-left">
         <li class="text-xl"><h3>PHP/VI v2 sortie en 1996, mais impopulaire</h3></li>
         <li class="text-xl" v-click="1">
-            <h3>En 1997, PHP v3 (Hypertext Preprocessor) est publié.</h3> 
+            <h3>
+                Redéveloppent du cœur de PHP/FI v2 par Andi Gutmans et Zeev Suraski, avec Rasmus Lerdorf.
+            </h3>
         </li>
         <li class="text-xl" v-click="2">
-            <h3>
-                Résultat du redéveloppent du cœur de PHP/FI v2 par Andi Gutmans et Zeev Suraski, avec Rasmus Lerdorf.
-            </h3>
+            <h3>En 1997, PHP v3 (Hypertext Preprocessor) est publié.</h3> 
         </li>
     </ol>
     <div class="flex flex-col space-y-4">
@@ -89,7 +89,7 @@ produire des pages web dynamiques plus rapidement qu’avec d’autres langages 
             <a href="https://twitter.com/zeev" target="_blank" alt="twitter de Zeev Suraski" 
                 class="text-xl text-light-blue-500"
             >
-                <carbon-logo-twitter />@rasmus
+                <carbon-logo-twitter />@zeev
             </a>
         </section>
     </div>
@@ -101,13 +101,13 @@ produire des pages web dynamiques plus rapidement qu’avec d’autres langages 
 
 ---
 
-## L'évolution de PHP: la v4 et Zend
+## L'évolution de PHP : la v4 et Zend
 
-<div class="page__evolution--v2 pt-12 flex flex-row space-x-30">
+<div class="page__evolution--v4 pt-12 flex flex-row space-x-30">
     <ol class="w-90 relative block flex flex-col space-y-6 text-left">
         <li class="text-xl"><h3>1998, développent d'un nouveau moteur, appelé Zend Engine servant de base à PHP v4</h3></li>
         <li class="text-xl" v-click="1">
-            <h3>PHP devient populaire. Sa syntaxe plait.</h3> 
+            <h3>un des langages les plus utilisés dans le développement web</h3> 
         </li>
         <li class="text-xl" v-click="2">
             <h3>
@@ -119,8 +119,12 @@ produire des pages web dynamiques plus rapidement qu’avec d’autres langages 
         <section class="section__cms flex flex-row space-x-6">
             <img class="w-16 h-16 flex-shrink-0" src="/assets/images/2/drupal.png" alt="drupal logo">
             <img class="w-16 h-16 flex-shrink-0" src="/assets/images/2/wordpress.png" alt="worpdress logo">
-            <img class="w-30 h-10 flex-shrink-0" src="/assets/images/2/joomla.png" alt="joomla logo">
-            <img class="relative bottom-12 w-60 h-40 flex-shrink-0" src="/assets/images/2/magento.svg" alt="magento logo">
+            <img class="w-40 h-10 flex-shrink-0" src="/assets/images/2/joomla.png" alt="joomla logo">
+            <div class="bg-white h-16 px-2">
+                <img class="relative bottom-12 w-60 h-40 flex-shrink-0" 
+                    src="/assets/images/2/magento.svg" alt="magento logo"
+                >
+            </div>
         </section>
         <section class="section__framework flex flex-row space-x-6">
             <img class="w-20 h-20 flex-shrink-0" src="/assets/images/2/laravel.jpeg" alt="laravel logo">
@@ -131,7 +135,57 @@ produire des pages web dynamiques plus rapidement qu’avec d’autres langages 
     </div>
 </div>
 
-<!-- v4 a une excellente syntaxe. outils: cms et framework -->
+<!-- v4 a une excellente syntaxe. outils: cms et framework se construisent autour -->
 
 ---
 
+## L'évolution de PHP : son expension sur le marché des sites web
+
+<div class="page__evolution--expension-sites pt-12 flex flex-col space-x-30">
+    <table>
+        <tr>
+            <th>Année</th>
+            <th>Parts de marché des sites utilisant PHP en millions</th>
+        </tr>
+        <tr v-click="1">
+            <th>2002</th>
+            <th>8</th>
+        </tr>
+        <tr v-click="2">
+            <th>2007</th>
+            <th>20</th>
+        </tr>
+        <tr v-click="3">
+            <th>2013</th>
+            <th>244</th>
+        </tr>
+    </table>
+</div>
+
+---
+
+## L'évolution de PHP : son expension sur le marché de la programmation serveur
+
+<div class="page__evolution--expension-seveur pt-12 flex flex-col space-x-30">
+    <table>
+        <tr>
+            <th>Année</th>
+            <th>Parts de marché des programmes sur serveurs utilisant PHP en pourcents </th>
+        </tr>
+        <tr v-click="1">
+            <th>2010</th>
+            <th>75%</th>
+        </tr>
+        <tr v-click="2">
+            <th>2013</th>
+            <th>75%</th>
+        </tr>
+        <tr v-click="3">
+            <th>2016</th>
+            <th>82%</th>
+        </tr>
+    </table>
+    <a class="mt-16 text-yellow-400" href="https://w3techs.com/">sources: https://w3techs.com/</a>
+</div>
+
+---
