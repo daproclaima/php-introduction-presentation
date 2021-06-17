@@ -295,3 +295,77 @@ produire des pages web dynamiques plus rapidement qu’avec d’autres langages 
 </div>
 
 <!-- PHP7 est plus rapide que Python et Ruby -->
+
+---
+
+## PHP et vous : Le meilleur langage de programmation ?
+
+<div class="page__you--best pt-12 flex flex-col w-full">
+    <h3 class="mb-4">Dépend de votre objectif</h3>
+    <div class="flex flex-row space-x-2 w-full">
+        <img src="/assets/images/4/hunter%20drone.jpeg" alt="drone tueur de pigeon" class="flex-none w-60" v-click="1">
+        <p class="w-50" v-click="2">Logiciels systèmes embarqués en Java, Python, C, C++, C#</p>
+        <img src="/assets/images/4/vaillant-pigeon.jpeg" 
+            alt="vaillant pigeon de combat" class="flex-none w-60" v-click="3"
+        >
+    </div>
+</div>
+
+---
+
+## PHP et vous : Un langage pour le développement web
+
+<div class="page__2021--web pt-12 flex flex-col w-full">
+    <h3 class="mb-4">PHP mérite votre attention si vous voulez devenir</h3>
+    <ol class="w-full block flex flex-col space-y-2 text-left">
+        <li class="text-xl" v-click="1"><h3>Developpeur web</h3></li>
+        <li class="text-xl" v-click="2"><h3>Developpeur backend</h3></li>
+        <li class="text-xl" v-click="3"><h3>Développeur web freelance</h3></li>
+    </ol>
+    <h4 v-click="4" class="mt-16">Salaire moyen annuel brut en France : 37 732 €</h4>
+</div>
+
+---
+
+## PHP et vous : Ressources pour son apprentissage
+
+<div class="page__2021--web pt-12 flex flex-col w-full">
+    <ol class="w-full block flex flex-col space-y-2 text-left">
+        <li class="text-xl" v-click="1">
+            <h3>Apprendre le PHP avec GrafikArt https://grafikart.fr/formations/php</h3>
+        </li>
+        <li class="text-xl" v-click="2">
+            <h3>Comprendre les principes SOLID en PHP par Lior Chamla https://learn.web-develop.me/a/lu6zp</h3>
+        </li>
+        <li class="text-xl" v-click="3">
+            <h3>Se tenir à jour sur PHP avec l'AFUP https://www.youtube.com/user/afupPHP/featured</h3>
+        </li>
+        <li class="text-xl" v-click="4">
+            <h3>Aller plus loin en sur le developpement informatique en français https://www.ledevweb.fr</h3>
+        </li>
+    </ol>
+</div>
+
+<!-- AFUP: Association Française des Utilisateurs de PHP -->
+
+---
+
+## Conclusion sur PHP
+
+<div class="page__2021--web pt-12 flex flex-col w-full">
+    <ol class="w-full block flex flex-col space-y-2 text-left">
+        <li class="text-xl" v-click="1">
+            <h3>
+                même s’il a plus de 20 ans, s’améliore au fil des années.
+                mauvaise réputation infondée.
+            </h3>
+        </li>
+        <li class="text-xl" v-click="2">
+            <h3>Créé pour le web, et représente 80% du des sites et services web en fonctionnement</h3>
+        </li>
+        <li class="text-xl" v-click="3">
+            <h3>Un développeur PHP a des opportunités d'emploi assuré !</h3>
+        </li>
+    </ol>
+    <h4 v-click="4" class="mt-16">Ce que permet PHP vous intéresse ? Qu'attendez-vous pour l'utiliser ?</h4>
+</div>
