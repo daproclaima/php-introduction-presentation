@@ -190,9 +190,9 @@ produire des pages web dynamiques plus rapidement qu’avec d’autres langages 
 
 ---
 
-## PHP aujourd'hui en 2021 : Le déclin ?
+## PHP en 2021 : Le déclin ?
 
-<div class="page__today--decay pt-12 flex flex-col">
+<div class="page__2021--decay pt-12 flex flex-col">
     <ol class="w-full block flex flex-col space-y-6 text-left" v-click="1">
         <li class="text-xl">
             <h3>Parts de marché des programmes sur serveurs utilisant PHP : 
@@ -215,7 +215,7 @@ produire des pages web dynamiques plus rapidement qu’avec d’autres langages 
 
 ##
 
-<div class="page__today--fake-end ">
+<div class="page__2021--fake-end ">
     <div class="absolute mt-50 ml-80">
         <p class="text-8xl">END</p>
     </div>
@@ -226,7 +226,7 @@ produire des pages web dynamiques plus rapidement qu’avec d’autres langages 
 
 ---
 
-## PHP aujourd'hui en 2021 : Pas de déclin !
+## PHP en 2021 : Pas de déclin !
 
 <div class="page__today--better-shape pt-12 flex flex-col">
     <ol class="w-full block flex flex-col space-y-6 text-left">
@@ -253,3 +253,45 @@ produire des pages web dynamiques plus rapidement qu’avec d’autres langages 
         <img src="/assets/images/3/rasmus-lerdorf-face.jpeg" alt="Rasmus Lerforf" class="absolute w-30 h-20 bottom-16 left-0 rounded-full" v-click="3">
     </div>
 </div>
+
+---
+
+## PHP en 2021 : Ses faiblesses ?
+
+<div class="page__2021--weaknesses pt-12 flex flex-row w-180">
+    <div class="flex flex-col">
+        <h3 class="mb-4">Une mauvaise réputation actuellement infondée. Beaucoup pensent que...</h3>
+        <ol class="w-full block flex flex-col space-y-2 text-left">
+            <li class="text-xl"><h3>PHP stagne depuis 20 ans.</h3></li>
+            <li class="text-xl" v-click="1">
+                <h3>PHP est resté une larve en v4, sans POO, instable, aux performances misérables.</h3>
+            </li>
+        </ol>
+    </div>
+    <div>
+        <Tweet id="1161431862931349504" v-after="1"></Tweet>
+    </div>
+</div>
+
+---
+
+## PHP en 2021 : La réalité
+
+<div class="page__2021--actually pt-12 flex flex-row w-full">
+    <div class="flex flex-col w-200">
+        <h3 class="mb-4">PHP en meilleure forme que jamais</h3>
+        <ol class="w-full block flex flex-col space-y-2 text-left">
+            <li class="text-xl" v-click="1"><h3>Fin 2020, la v8 est publiée</h3></li>
+            <li class="text-xl" v-click="2"><h3>Facile à apprendre</h3></li>
+            <li class="text-xl" v-click="3"><h3>Multiplateformes</h3></li>
+            <li class="text-xl" v-click="4"><h3>Open source et gratuit (économie d'argent) </h3></li>
+            <li class="text-xl" v-click="5"><h3>efficace et modulable (économie de temps)</h3></li>
+        </ol>
+    </div>
+    <div class="flex flex-col space-y-4">
+        <img src="/assets/images/3/logo_php8.svg" alt="php 8 logo" class="relative flex-none right-0 w-20 h-20 bg-violet-300 p-4">
+        <img src="/assets/images/3/php%20speed.png" alt="vitesse php" class="flex-none w-100" v-after="5">
+    </div>
+</div>
+
+<!-- PHP7 est plus rapide que Python et Ruby -->
