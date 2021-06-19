@@ -119,7 +119,7 @@ produire des pages web dynamiques plus rapidement qu’avec d’autres langages 
         <section class="section__cms flex flex-row space-x-6">
             <img class="w-16 h-16 flex-shrink-0" src="/assets/images/2/drupal.png" alt="drupal logo">
             <img class="w-16 h-16 flex-shrink-0" src="/assets/images/2/wordpress.png" alt="worpdress logo">
-            <img class="w-40 h-10 flex-shrink-0" src="/assets/images/2/joomla-logo.png" alt="joomla logo">
+            <img class="w-40 h-10 flex-shrink-0" src="/assets/images/2/joomla.png" alt="joomla logo">
             <div class="bg-white h-16 px-2">
                 <img class="relative bottom-12 w-60 h-40 flex-shrink-0" 
                     src="/assets/images/2/magento.svg" alt="magento logo"
