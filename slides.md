@@ -290,7 +290,7 @@ produire des pages web dynamiques plus rapidement qu’avec d’autres langages 
     </div>
     <div class="flex flex-col space-y-4">
         <img src="/assets/images/3/logo_php8.svg" alt="php 8 logo" class="relative flex-none right-0 w-20 h-20 bg-violet-300 p-4">
-        <img src="/assets/images/3/php%20speed.png" alt="vitesse php" class="flex-none w-100" v-after="5">
+        <img src="/assets/images/3/php_speed.png" alt="vitesse php" class="flex-none w-100" v-after="5">
     </div>
 </div>
 
@@ -303,7 +303,7 @@ produire des pages web dynamiques plus rapidement qu’avec d’autres langages 
 <div class="page__you--best pt-12 flex flex-col w-full">
     <h3 class="mb-4">Dépend de votre objectif</h3>
     <div class="flex flex-row space-x-2 w-full">
-        <img src="/assets/images/4/hunter%20drone.jpeg" alt="drone tueur de pigeon" class="flex-none w-60" v-click="1">
+        <img src="/assets/images/4/hunter_drone.jpeg" alt="drone tueur de pigeon" class="flex-none w-60" v-click="1">
         <p class="w-50" v-click="2">Logiciels systèmes embarqués en Java, Python, C, C++, C#</p>
         <img src="/assets/images/4/vaillant-pigeon.jpeg" 
             alt="vaillant pigeon de combat" class="flex-none w-60" v-click="3"
